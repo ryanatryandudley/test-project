@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>selection</key>
+	<string>ryan</string>
+	<key>servers</key>
+	<dict>
+		<key>production</key>
+		<string>https://raw.github.com/ryanatryandudley/test-assets/master/</string>
+		<key>ryan</key>
+		<string>https://raw.github.com/ryanatryandudley/test-assets/master/</string>
+	</dict>
+</dict>
+</plist>
