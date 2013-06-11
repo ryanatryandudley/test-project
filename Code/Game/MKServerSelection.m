@@ -17,7 +17,7 @@ static NSString* _selectedServer = nil;
 // must be called before we try to get the server
 +(void) pickServer:(void(^)(NSString* selection))onSelect {
 	// load the server plist
-	NSString *serverPlist = [NSString stringWithFormat:@"%@/servers.plist", [[NSBundle mainBundle] bundlePath]];
+	NSString *serverPlist = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"servers.plist"];
 	NSDictionary* servers = [NSDictionary dictionaryWithContentsOfFile:serverPlist];
 	
 	// create a block to call for the server selector

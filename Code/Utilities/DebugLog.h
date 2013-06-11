@@ -1,7 +1,5 @@
 //
 //  DebugLog.h
-//  ZombieJombie
-//
 //  Created by Ally Ogilvie
 //  Copyright (c) 2011 WizCorp Inc. All rights reserved.
 //
